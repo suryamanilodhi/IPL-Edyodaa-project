@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>IPL Project</title>
+  </head>
+  <body>
+    <header>
+      <div id="topbar-container">
+        <div id="topbar-right">
+          <img
+            src="https://www.gkhub.in/wp-content/uploads/2022/08/IPL-2023.png"
+            alt="logo here"
+            id="logo"
+          />
+          <a href="index.html">
+            <button id="home-button" class="add-button">Home</button>
+          </a>
+        </div>
+        <div id="topbar-left">
+          <div class="search-input">
+            <a href="" target="_blank" hidden></a>
+            <input type="text" placeholder="SEARCH" />
+            <div class="autocom-box"></div>
+            <div class="icon">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+          </div>
+       <button id="add-team-button" class="add-button" onclick="addteamclicked()">Add Team</button>
+       <button id="add-player-button" class="add-button" onclick="addPlayerClicked()">Add Player</button>
+    </div>
+      </div>
+    </header>
+
+    <div>
+      <h1 id="ipl-title">INDIAN PREMIER LEAGUE TEAMS-2023</h1>
+      <div id="first-main">
+        <div id="container_teams"></div>
+      </div>
+    </div>
+    <div id="sponsor-div">
+      <div>
+        <p>TITLE SPONSOR</p>
+      <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/bcci/live_blog/1644520414_tata-logo.png">
+    </div>
+    <div>
+      <p>OFFICIAL DIGITAL <br>STREAMING PARTNER</p>
+    <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/bcci/live_blog/1633587919_sponsor-hotstar.webp">
+  </div>
+  <div>
+    <p>OFFICIAL BROADCASTER</p>
+  <img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/bcci/live_blog/1636628182_star-sports.png">
+</div>
+<div>
+  <p>OFFICIAL ORANGE CAP <br>AND PURPLE CAP PARTNER</p>
+<img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/bcci/logo/1647964934_aramco.png">
+</div><div>
+  <p>UMPIRE PARTNER</p>
+<img src="https://bcciplayerimages.s3.ap-south-1.amazonaws.com/bcci/live_blog/1633588474_sponsor-paytm.webp">
+</div>
+    </div>
+    <footer>
+      <div id="footer-div">
+        <div>
+        <ul>
+          <li>Teams</li>
+          <li>chennai super kings</li>
+          <li>mumbai indians</li>
+          <li>kolkata knight riders</li>
+          <li>sunrises hyderabad</li>
+          <li>royal challengers banglore</li>
+          <li>gujarat titans</li>
+          <li>rajasthan royals</li>
+          <li>delhi capitals</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>ABOUT</li>
+          <li>about us</li>
+          <li>anti corruption policy</li>
+          <li>clothing and equipment regulations</li>
+          <li>code of conduct for team and players officials</li>
+          <li>news access regulations</li>
+          <li>image use terms</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>CONTACT</li>
+          <li>contact us</li>
+          <li>privacy policy</li>
+          <li>sponsorship</li>
+        </ul>
+      </div>
+    </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

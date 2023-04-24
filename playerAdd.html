@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" 
+    crossorigin="anonymous"></script>
+
+    <script
+      src="https://kit.fontawesome.com/6f5013579e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Add Team Player</title>
+  </head>
+  <body>
+    <header>
+          <a style="text-decoration:none;" href="./index.html">
+            <h1 style ="margin-top: 0; background: white; color:rgb(88, 3, 57);" id="ipl-title">INDIAN PREMIER LEAGUE TEAMS-2023</h1>
+          </a>
+    </header>
+
+    <div id="add-team">
+      <h1 id="title">Add Player</h1>
+      <form id="addteamform">
+        <p>Player Name</p>
+        <input
+          id="input1"
+          type="text"
+          name="playerName"
+          placeholder="Enter Player Name"
+          required
+        />
+
+        <p>Price in Crore</p>
+        <input
+          id="input2"
+          type="number"
+          name="price"
+          maxlength="2"
+          placeholder="Enter Price For Player"
+          required
+        />
+
+        <p>Select Player playing</p>
+        <select
+          id="input3"
+          type="text"
+          name="isPlaying"
+          placeholder="Enter Playing Status"
+          required
+        >
+          <option value="true">true</option>
+          <option value="false">false</option>
+        </select>
+
+        <p>Select Player Role</p>
+        <select id="input4" type="text" name="role" required>
+          <option value="ALL-Rounder">ALL-Rounder</option>
+          <option value="Batsman">Batsman</option>
+          <option value="Bowler">Bowler</option>
+        </select>
+
+        <p>Player Image URL</p>
+        <input
+          id="input5"
+          type="text"
+          name="playerimg"
+          placeholder="Enter The Player Image URL"
+          required
+        />
+
+        <p>Enter Player Team</p>
+        <select id="input6" type="text" name="teamSelect" required></select>
+
+        <button type="submit">Add Player</button>
+      </form>
+    </div>
+    <footer>
+      <div>
+        <h4>INDIAN PREMIER LEAGUE</h4>
+        <h4>IPL Cricket Teams</h4>
+      </div>
+    </footer>
+    <script src="playerAdd.js"></script>
+  </body>
+</html>
